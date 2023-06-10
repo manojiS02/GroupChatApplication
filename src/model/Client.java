@@ -18,7 +18,7 @@ public class Client  extends Thread{
     private ArrayList<Client> clients;
     private Socket socket;
     private BufferedReader reader;
-    private PrintWriter writer;
+    private PrintWriter writer; //api yawana data eka(String/int/...) clientge chat eke print karanwa
 
     public Client(Socket socket, ArrayList<Client> clients) {
         try {
